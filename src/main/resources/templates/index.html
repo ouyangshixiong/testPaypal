@@ -8,5 +8,14 @@
 <form method="post" th:action="@{/pay}">
     <button type="submit">uTest Pay Demo</button>
 </form>
+<form method="post" th:action="@{/safecharge/getSession}">
+    <button type="submit">1. SafeChage-getSession</button>
+</form>
+<form method="post" th:action="@{/adyen/get-payment-methods}">
+    <button type="submit">2. Adyen-get-payment-methods</button>
+</form>
+<form method="post" th:action="@{/adyen/pay}">
+    <button type="submit">2. Adyen-pay</button>
+</form>
 </body>
 </html>
